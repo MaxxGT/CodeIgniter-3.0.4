@@ -1,3 +1,3 @@
 <?php
-echo "This is my first Codelgnite programming";
+echo "This is my first Codelgnite programming.<BR/>";
 ?>
