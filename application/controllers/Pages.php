@@ -3,7 +3,7 @@
 class Pages extends CI_Controller{
 	Public function view($page = 'home')
 	{
-		if(! file_exists(APPATH.'/views/pages/'.$page.'.php'))
+		if(! file_exists(APPPATH.'/views/pages/'.$page.'.php'))
 		{
 			show_404();
 		}
